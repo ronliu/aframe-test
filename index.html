@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A-Frame Test</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-sky 
+            color="#ececec">
+        </a-sky>
+        <a-plane
+            position="0 0 -4"
+            rotation="-90 0 0"
+            width="4"
+            height="4"
+            color="#7bc8a4"
+            shadow>
+        </a-plane>
+        <a-box
+            position="-1 .5 -3"
+            rotation="0 45 0"
+            color="#4cc3d9"
+            shadow>
+        </a-box>
+        <a-sphere
+            position="0 1.25 -5"
+            radius="1.25"
+            color="#ef2d5e"
+            shadow>
+        </a-sphere>
+        <a-cylinder
+            position="1 .75 -3"
+            radius="0.5"
+            height="1.5"
+            color="#ffc65d"
+            shadow>
+        </a-cylinder>
+    </a-scene>
+</body>
+</html>
