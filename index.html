@@ -7,7 +7,12 @@
 </head>
 <body>
     <a-scene>
+        <a-assets>
+            <img id="img-dirt" src="assets/dirt.jpg">
+        </a-assets>
+
         <a-sky 
+            rotation="0 90 0"
             color="#ececec">
         </a-sky>
         <a-text
@@ -27,7 +32,7 @@
         <a-box
             position="-1 .5 -3"
             rotation="0 45 0"
-            color="#4cc3d9"
+            src="#img-dirt"
             shadow>
         </a-box>
         <a-sphere
