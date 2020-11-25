@@ -5,3 +5,4 @@ Live preview: https://yakurutu.github.io/aframe-test/
 What I learned:
 - using the asset management system for better performance (asset preloading and caching)
 - recreating primitive elements using entity-component architecture
+- using components from the A-Frame Registry for physics and animation
