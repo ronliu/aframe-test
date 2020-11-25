@@ -9,7 +9,7 @@
 <body>
     <a-scene>
         <a-assets>
-            <img id="img-dirt" src="assets/dirt.jpg">
+            <img id="tex-dirt" src="assets/tex-dirt.jpg">
         </a-assets>
 
         <a-sky 
@@ -37,13 +37,13 @@
         <a-box 
             position="-1 .5 -3"
             rotation="0 45 0"
-            src="#img-dirt"
+            src="#tex-dirt"
             shadow></a-box>
         <!-- Small version of the above box -->
         <a-entity
             position="-1 3 -3"
             geometry="primitive: box; width: .5; height: .5; depth: .5"
-            material="src: #img-dirt"></a-entity>
+            material="src: #tex-dirt"></a-entity>
         <a-sphere
             position="0 1.25 -5"
             radius="1.25"
