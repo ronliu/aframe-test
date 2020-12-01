@@ -15,6 +15,11 @@
             <img id="tex-dirt" src="assets/tex-dirt.jpg">
         </a-assets>
 
+        <!-- CAMERA -->
+        <a-camera>
+            <a-cursor id="cursor"></a-cursor>
+        </a-camera>
+
         <!-- ENVIRONMENT -->
         <a-sky 
             rotation="0 90 0"
@@ -30,8 +35,6 @@
             position="-0.25 3 -5"
             value="Hello!"
             color="#ffffff"></a-text>
-
-        <!-- EFFECTS -->
         <!-- Light moving left and right-->
         <a-entity id="light"
             position="-3 3.25 0"
@@ -43,7 +46,7 @@
         <a-entity
             particle-system="preset: rain"></a-entity>
         
-        <!-- SHAPES -->
+        <!-- OBJECTS -->
         <!-- Normal dirt box-->
         <a-box id="box-dirt"
             position="-1 .5 -3"
