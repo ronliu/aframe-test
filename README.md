@@ -3,6 +3,7 @@ Learning the basics of A-Frame. Mainly following along with A-Frame School and t
 Live preview: https://yakurutu.github.io/aframe-test/
 
 What I learned:
+- basic file organization for A-Frame (assets, components folders)
 - using the asset management system (<a-assets>) for better performance (asset preloading and caching)
 - reconstructing primitives (boxes, spheres, cylinders) using entity-component architecture (<a-entity>)
 - modifying elements and handling events with JavaScript and DOM APIs
