@@ -1,4 +1,4 @@
-AFRAME.registerComponent('scene', {
+AFRAME.registerComponent('js-scene', {
 
     /* Code within this function will be called when <a-scene> is ready and loaded */
     init: function() {
