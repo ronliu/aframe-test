@@ -9,3 +9,4 @@ What I learned:
 - modifying elements and handling events with JavaScript and DOM APIs
 - using community-made components from the A-Frame Registry for animation, particle systems, and event-setting
 - adding gaze-based cursor interactions with &lt;a-camera&gt; and &lt;a-cursor&gt;
+- declaring explicit character encoding in files (e.g. the angle brackets used in the bullet points above)
