@@ -1,6 +1,6 @@
 Learning the basics of A-Frame by following along with A-Frame School and the documentation.
 
-Live preview: https://yakurutu.github.io/aframe-test/
+Live preview: https://ronliu.github.io/aframe-test/
 
 What I learned:
 - basic file organization for A-Frame (assets, components folders)
